@@ -1,0 +1,256 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "hi there",
+                "Hello",
+                "haroo",
+                "yaw",
+                "wassup",
+                "hi",
+                "hey",
+                "holla",
+                "hello"
+            ],
+            "responses": [
+                "hello thanks for checking in, how can i help you",
+                "hi there, how can i help you"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "bye",
+                "good bye",
+                "see you later"
+            ],
+            "responses": [
+                "have a nice time, welcome back again",
+                "bye bye"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "okay",
+                "Thank you",
+                "thankyou",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me",
+                "wow",
+                "great"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "you're welcome",
+                "My pleasure"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                "Sorry, I didn't understand you",
+                "Please give me more info",
+                "Not sure I understand that"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "reservation",
+            "patterns": [
+                "how to make online reservation",
+                "online reservation",
+                "reservation"
+            ],
+            "responses": [
+                "You can make an online reservation through this website, we have already inserted the guidance in the help section on this website, or please call the regional help desk 0774365562 "
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "facilities",
+            "patterns": [
+                "how do i get to know which facilities hotel offers",
+                "what facilities",
+                "facilities hotel offering",
+                "hotel facilities"
+            ],
+            "responses": [
+                "have a look at the section hotel basic information",
+                "In hotel basic section you will find the check in/out information"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "extra fees",
+            "patterns": [
+                "Are fees and taxes include in prices",
+                "extra fees",
+                "tax"
+            ],
+            "responses": [
+                "this is different for each rooms and facilities or type of accommondation, for more information please check the rooms by clicking on the name of the room as you are interested"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "rates",
+            "patterns": [
+                "Are the rates on your hotel per person or per",
+                "extra fees",
+                "tax"
+            ],
+            "responses": [
+                "this is different for each rooms and facilities or type of accommondation, for more information please check the rooms by clicking on the name of the room as you are interested"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "payment",
+            "patterns": [
+                "How can i make a payment",
+                "how to pay",
+                "payments"
+            ],
+            "responses": [
+                "We're cash free hotel which means you can via online methods and card payment"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "payment type",
+            "patterns": [
+                "what payment types do you accept",
+                "payment types",
+                "types of payment"
+            ],
+            "responses": [
+                "we accept credit cards,debit cards, online payment options(Paypal)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "advance payment",
+            "patterns": [
+                "do you require any deposit in advance",
+                "down payment",
+                "advance payment"
+            ],
+            "responses": [
+                "generally, no deposit is required to book rooms"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "secure",
+            "patterns": [
+                "How secure is your website",
+                "security",
+                "payment security",
+                "website security"
+            ],
+            "responses": [
+                "Your payment information is sent to us through a secure server which encrypted all your personal details that you provided to us."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Change or Cancel",
+            "patterns": [
+                "How do I cancel my booking",
+                "How do I change my booking",
+                "how to cancel ",
+                "how to change ",
+                "change reservation ",
+                "cancel reservation "
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Change or Cancel",
+            "patterns": [
+                "How do I cancel my booking",
+                "How do I change my booking",
+                "how to cancel ",
+                "how to change ",
+                "change reservation ",
+                "cancel reservation "
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "parking",
+            "patterns": [
+                "do hotel have parking",
+                "parking",
+                "hotel parking ",
+                "park "
+            ],
+            "responses": [
+                "yes of course, our hotel has a luxery car park in front of the hotel. Accessibility is guaranteed 24 hours a day and its a secured parking space"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "searching",
+            "patterns": [
+                "how do i search for suitable room",
+                "how to search best room",
+                "find rooms",
+                "rooms "
+            ],
+            "responses": [ 
+                "you can visit our website or can contact us www.hotelbookings.com"
+            ],
+            "context": [
+                ""
+            ]
+        }
+    ]
+}
